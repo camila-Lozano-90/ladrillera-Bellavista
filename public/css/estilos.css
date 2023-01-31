@@ -1,0 +1,12 @@
+#menuInicio.position-relative.overflow-hidden.p-3.p-md-5.m-md-3.text-center{
+    background-image: url('<?php echo URLROOT ?>img/muroLadrilloImg.jpg'); 
+    filter: brightness(50%);
+}
+/*div.card {
+    backdrop-filter: none; 
+    backdrop-filter: brightness(30%);
+    
+}
+form#frmPrestamo{
+    background-image: url('<?php echo URLROOT ?>img/muroLadrilloImg.jpg'); 
+}*/

@@ -1,0 +1,5 @@
+Options -Indexes
+##Header Set Access-Control-Allow-Origin "https://blogvidasalud.000webhostapp.com/" 
+
+
+## Para solucionar problemas en el cors site origin ##Poner la ruta del hosting

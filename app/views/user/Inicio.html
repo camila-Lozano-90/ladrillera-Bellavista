@@ -1,0 +1,42 @@
+<?php
+error_reporting(0);
+
+?>
+
+<?php require_once APPROOT . '/views/user/inc/header.php'; ?>
+<link rel="stylesheet" href="<?php echo URLROOT; ?>css/sweetalert2.min.css">
+<script src="<?php echo URLROOT; ?>jQuery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 bg-light">
+    <h2>¡Hola <?php echo $_SESSION['nombres']; ?>!</h2>
+    <img style="background-image: url('https://www.impulsonegocios.com/wp-content/uploads/2019/03/construccion.jpg');" width="150%" height="320px" style="padding-top: 1%;" class alt="">
+    <h2>Usuarios</h2>
+    <div class="table-responsive">
+        <div class="col-12">
+            <a type="button" class="btn btn-success" href="<?php echo URLROOT; ?>Usuarios/Add">Nuevo</a>
+        </div>
+        <table class="table table-stripped table-sm" id="tblUsuarios">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Identificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</main>
+</div>
+</div>
+
+<script src="<?php echo URLROOT; ?>DataTables-1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo URLROOT; ?>js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo URLROOT; ?>js/usuarios.js"></script>
+<script src="<?php echo URLROOT; ?>js/sweetalert2.all.min.js"></script>
+<!-- <script src="DataTables-1.12.1/js/jquery.dataTables.js"></script> -->
+
+<?php require_once APPROOT . '/views/user/inc/footer.php'; ?>
